@@ -1,0 +1,10 @@
+# Claves SSH — NUNCA subir al repositorio
+githumvlave
+githumvlave.pub
+*.pem
+id_rsa
+id_ed25519
+
+# Sistema
+.DS_Store
+Thumbs.db
