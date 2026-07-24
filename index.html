@@ -2885,14 +2885,7 @@ injerto capilar mujeres
       }
     }
 
-    /* ============================================================
 
-  /* ============================================================
-     EFECTOS NUEVOS: Shiny Text / Text Pressure / Gradual Blur /
-     Blur Reveal (entrada difuminada para elementos sin animar)
-     ============================================================ */
-
-    /* ---------- SHINY TEXT: base blanca con brillo verde que la recorre ---------- */
     .shiny-text {
       --shiny-base: #ffffff;
       --shiny-shine: #458741;
@@ -3633,7 +3626,7 @@ injerto capilar mujeres
         </div>
       </div>
       <div class="footer-bottom-extra">
-        <div class="footer-credit">Página creada y diseñada por Saúl Expósito Jiménez</div>
+        <div class="footer-credit">Página creada y diseñada por Angel Mind SEO</div>
         <a class="footer-junta-link" href="https://www.juntadeandalucia.es" target="_blank" rel="noopener"
           aria-label="Junta de Andalucía">
           <img src="https://www.juntadeandalucia.es/sites/default/files/2023-02/byn_1.png" alt="Junta de Andalucía"
@@ -3978,16 +3971,16 @@ injerto capilar mujeres
       const track = wrapper ? wrapper.querySelector('.services-track') : null;
       if (!wrapper || !track) return;
 
-      let current = 0;      // posición actual del track (translateX, siempre <= 0)
+      let current = 0;     
       let maxScroll = 0;    // cuánto se puede desplazar como máximo
       let startX = 0, startY = 0, startCurrent = 0;
       let dragging = false;
-      let locked = null;    // 'x' (arrastramos la fila) | 'y' (dejamos que la página haga scroll) | null (aún sin decidir)
+      let locked = null;    
       let moved = false;
 
       function computeMax() {
         maxScroll = Math.max(0, track.scrollWidth - wrapper.clientWidth);
-        setPosition(current, false); // reencaja la posición si cambia el ancho disponible
+        setPosition(current, false);
       }
 
       function setPosition(x, animate) {
